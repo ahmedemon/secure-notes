@@ -1,0 +1,14 @@
+body { font: 15px/1.4 system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
+nav button { margin-right: .25rem; }
+nav button.active { font-weight: bold; text-decoration: underline; }
+form { display: grid; gap: .5rem; margin: 1rem 0; max-width: 480px; }
+label { display: grid; gap: .2rem; }
+input, textarea, select, button { font: inherit; padding: .35rem; }
+.item { border: 1px solid #ccc; border-radius: 4px; padding: .6rem; margin: .5rem 0; }
+.item h3 { margin: 0 0 .25rem; }
+.item pre { white-space: pre-wrap; margin: .25rem 0; font: inherit; }
+.muted { color: #666; font-size: .85em; }
+.pager { display: flex; gap: .75rem; align-items: center; margin: 1rem 0; }
+#msg { min-height: 1.2em; color: #b00020; }
+#msg.ok { color: #0a6b2d; }
